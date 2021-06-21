@@ -38,7 +38,19 @@
       		  第三行字型:"Courier New",monospace;、字大小32、font-style:italic 紅色
      	 -->
 		</div>
-  
+  		<?php
+			$date=date_create("2021-06-21");
+			echo date_format($date,"Y/m/d");
+		?>
+		<h1 id="myH"></h1>
+		<p id="myP"></p>
+
+		<script>
+
+		document.getElementById("myH").innerHTML = "JavaScript Comments";
+		document.getElementById("myP").innerHTML = "Thank you";
+		</script>
+
 
       
 	</body>
