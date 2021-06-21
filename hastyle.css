@@ -1,0 +1,18 @@
+body{
+	background-color:white;
+	font-family:"Lucida Console",monospace;
+	font-size:24px;
+	color:black;
+}
+h1{
+	font-family:"Arial",sans-serif;
+	font-size:64px;
+	font-style:oblique;
+	color:blue;
+}
+h2{
+	font-family:"Courier New",monospace;
+	font-size:32px;
+	font-style:italic;
+	color:red;
+}		
